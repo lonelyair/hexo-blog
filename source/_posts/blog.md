@@ -1,7 +1,6 @@
-layout: first
 title: blog
 date: 2015-12-18 16:49:33
-tags:
+tags: nodejs ppt
 ---
 title: nodeppt markdown 演示
 speaker: Theo Wang

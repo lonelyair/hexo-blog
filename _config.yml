@@ -60,12 +60,20 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
-disqus_shortname:
+disqus_shortname: akangblog
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+#theme: landscape
+theme: yaht
 
+plugin:
+- hexo-generator-feed
+feed: 
+	type: atom
+	path: atom.xml
+	limit: 20
+	hub: 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy: 
