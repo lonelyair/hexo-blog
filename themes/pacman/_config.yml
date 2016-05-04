@@ -2,6 +2,7 @@
 menu:
   Home: /
   Archives: /archives
+  Rss: /atom.xml
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -18,7 +19,7 @@ widgets:
 ## modify links in `/layout/_widget/links.ejs`.
 
 #### RSS
-rss: ## RSS address.
+rss: "/atom.xml" ## RSS address.
 
 #### Image
 imglogo:

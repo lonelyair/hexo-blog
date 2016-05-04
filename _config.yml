@@ -67,8 +67,10 @@ disqus_shortname: akangblog
 #theme: landscape
 theme: pacman
 
-plugin:
+Plugins:
 - hexo-generator-feed
+- hexo-generator-sitemap
+
 feed: 
 	type: atom
 	path: atom.xml
