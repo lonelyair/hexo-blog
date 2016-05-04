@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Air的博客</title>
+  <subtitle>新的开始</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://lonelyair.github.io/hexo-blog/"/>
+  <updated>2016-05-04T05:25:05.000Z</updated>
+  <id>http://lonelyair.github.io/hexo-blog/</id>
+  
+  <author>
+    <name>Air Kang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://lonelyair.github.io/hexo-blog/2016/05/04/hello-world/"/>
+    <id>http://lonelyair.github.io/hexo-blog/2016/05/04/hello-world/</id>
+    <published>2016-05-04T06:09:50.542Z</published>
+    <updated>2016-05-04T05:25:05.000Z</updated>
+    
+    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;http://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://hexo.io
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>新的开始</title>
+    <link href="http://lonelyair.github.io/hexo-blog/2016/05/03/%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B/"/>
+    <id>http://lonelyair.github.io/hexo-blog/2016/05/03/新的开始/</id>
+    <published>2016-05-03T11:09:47.000Z</published>
+    <updated>2016-05-03T11:20:23.000Z</updated>
+    
+    <content type="html">&lt;p&gt;这是&lt;strong&gt;新的开始&lt;/strong&gt;，我用hexo创建了第一篇文章。&lt;/p&gt;
+&lt;p&gt;通过下面的命令，就可以创建新文章&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;~/workspace/node_prj/hexo-blog $ hexo new 新的开始&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;INFO  Created: ~/workspace/node_prj/hexo-blog/source/_posts/新的开始.md&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;感觉非常好。&lt;/p&gt;
+&lt;h1 id=&quot;Swig语法&quot;&gt;&lt;a href=&quot;#Swig语法&quot; class=&quot;headerlink&quot; title=&quot;Swig语法&quot;&gt;&lt;/a&gt;Swig语法&lt;/h1&gt;&lt;figure class=&quot;highlight ruby&quot;&gt;&lt;figcaption&gt;&lt;span&gt;.compact&lt;/span&gt;&lt;a href=&quot;http://underscorejs.org/#compact&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Underscore.js&lt;/a&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;.compact([&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;literal&quot;&gt;false&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;, ‘’, &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;]);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;=&amp;gt; [&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h1 id=&quot;Markdown语法&quot;&gt;&lt;a href=&quot;#Markdown语法&quot; class=&quot;headerlink&quot; title=&quot;Markdown语法&quot;&gt;&lt;/a&gt;Markdown语法&lt;/h1&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;.compact([0, 1, false, 2, ‘’, 3]);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;=&amp;gt; [1, 2, 3]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h1 id=&quot;链接&quot;&gt;&lt;a href=&quot;#链接&quot; class=&quot;headerlink&quot; title=&quot;链接&quot;&gt;&lt;/a&gt;链接&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;http://blog.fens.me&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;粉丝日志&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;图片&quot;&gt;&lt;a href=&quot;#图片&quot; class=&quot;headerlink&quot; title=&quot;图片&quot;&gt;&lt;/a&gt;图片&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;/hexo-blog/images/6cbb.png&quot; alt=&quot;下载宝&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;公式&quot;&gt;&lt;a href=&quot;#公式&quot; class=&quot;headerlink&quot; title=&quot;公式&quot;&gt;&lt;/a&gt;公式&lt;/h2&gt;&lt;p&gt;$$J_\alpha(x)=\sum _{m=0}^\infty \frac{(-1)^ m}{m! \, \Gamma (m + \alpha + 1)}{\left({\frac{x}{2}}\right)}^{2 m + \alpha }$$&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这是&lt;strong&gt;新的开始&lt;/strong&gt;，我用hexo创建了第一篇文章。&lt;/p&gt;
+&lt;p&gt;通过下面的命令，就可以创建新文章&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;sp
+    
+    </summary>
+    
+      <category term="日志" scheme="http://lonelyair.github.io/hexo-blog/categories/%E6%97%A5%E5%BF%97/"/>
+    
+      <category term="第一天" scheme="http://lonelyair.github.io/hexo-blog/categories/%E6%97%A5%E5%BF%97/%E7%AC%AC%E4%B8%80%E5%A4%A9/"/>
+    
+    
+      <category term="开始" scheme="http://lonelyair.github.io/hexo-blog/tags/%E5%BC%80%E5%A7%8B/"/>
+    
+      <category term="我" scheme="http://lonelyair.github.io/hexo-blog/tags/%E6%88%91/"/>
+    
+      <category term="日记" scheme="http://lonelyair.github.io/hexo-blog/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>blog</title>
+    <link href="http://lonelyair.github.io/hexo-blog/2015/12/18/blog/"/>
+    <id>http://lonelyair.github.io/hexo-blog/2015/12/18/blog/</id>
+    <published>2015-12-18T08:49:33.000Z</published>
+    <updated>2016-05-04T05:25:05.000Z</updated>
+    
+    <content type="html">&lt;p&gt;title: nodeppt markdown 演示&lt;br&gt;speaker: Theo Wang&lt;br&gt;url: &lt;a href=&quot;https://github.com/ksky521/nodePPT&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/ksky521/nodePPT&lt;/a&gt;&lt;br&gt;transition: move&lt;br&gt;files: /js/demo.js,/css/demo.css,/js/zoom.js&lt;br&gt;theme: moon&lt;br&gt;usemathjax: yes&lt;/p&gt;
+&lt;p&gt;[slide]&lt;/p&gt;
+&lt;h1 id=&quot;封面样式&quot;&gt;&lt;a href=&quot;#封面样式&quot; class=&quot;headerlink&quot; title=&quot;封面样式&quot;&gt;&lt;/a&gt;封面样式&lt;/h1&gt;&lt;h2 id=&quot;h1是作为封面用的，内部的都用h2&quot;&gt;&lt;a href=&quot;#h1是作为封面用的，内部的都用h2&quot; class=&quot;headerlink&quot; title=&quot;h1是作为封面用的，内部的都用h2&quot;&gt;&lt;/a&gt;h1是作为封面用的，内部的都用h2&lt;/h2&gt;&lt;p&gt;&lt;small&gt;演讲者：xxx&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;[slide]&lt;/p&gt;
+&lt;h1 id=&quot;样式展示-amp-flexbox-vleft&quot;&gt;&lt;a href=&quot;#样式展示-amp-flexbox-vleft&quot; class=&quot;headerlink&quot; title=&quot;样式展示 {:&amp;amp;.flexbox.vleft}&quot;&gt;&lt;/a&gt;样式展示 {:&amp;amp;.flexbox.vleft}&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;nodePPT 让每个人都爱上做分享！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;[slide]&lt;/p&gt;
+&lt;h2 id=&quot;为什么选择nodePPT&quot;&gt;&lt;a href=&quot;#为什么选择nodePPT&quot; class=&quot;headerlink&quot; title=&quot;为什么选择nodePPT&quot;&gt;&lt;/a&gt;为什么选择nodePPT&lt;/h2&gt;&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;基于GFM的markdown语法编写 {:&amp;amp;.rollIn}&lt;/li&gt;
+&lt;li&gt;支持html混排，再复杂的demo也可以做！&lt;/li&gt;
+&lt;li&gt;导出网页或者pdf更容易分享&lt;/li&gt;
+&lt;li&gt;支持18种转场动画，可以设置单页动画&lt;/li&gt;
+&lt;li&gt;支持单页背景图片&lt;/li&gt;
+&lt;li&gt;多种模式：overview模式，双屏模式，socket远程控制，摇一摇换页&lt;/li&gt;
+&lt;li&gt;可以使用画板，可以使用note做备注&lt;/li&gt;
+&lt;li&gt;支持语法高亮，自由选择highlight样式&lt;/li&gt;
+&lt;li&gt;可以单页ppt内部动画，单步动画&lt;/li&gt;
+&lt;li&gt;支持进入/退出回调，做在线demo很方便&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;[slide]&lt;/p&gt;
+&lt;h2 id=&quot;基本语法指南&quot;&gt;&lt;a href=&quot;#基本语法指南&quot; class=&quot;headerlink&quot; title=&quot;基本语法指南&quot;&gt;&lt;/a&gt;基本语法指南&lt;/h2&gt;&lt;hr&gt;
+&lt;pre&gt;&lt;code class=&quot;markdown&quot;&gt;/* 先写总的配置 */
+title: 这是title，网页名称
+speaker: 演讲者名称
+url: https://github.com/ksky521/nodePPT
+transition: 全局转场动画
+files: 引入的js和css文件，多个以半角逗号隔开
+highlightStyle: 代码高亮样式，默认monokai_sublime
+usemathjax: yes 启用MathJax渲染公式
+
+/* 以&amp;#91;slide&amp;#93; 隔开每个ppt页面 */
+&amp;#91;slide&amp;#93;
+## 二级标题
+这里写内容即可
+
+&amp;#91;slide&amp;#93;
+...
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;[slide style=”background-image:url(‘/img/bg1.png’)”]&lt;/p&gt;
+&lt;h1 id=&quot;支持单页添加背景图片-amp-flexbox-vleft&quot;&gt;&lt;a href=&quot;#支持单页添加背景图片-amp-flexbox-vleft&quot; class=&quot;headerlink&quot; title=&quot;支持单页添加背景图片 {:&amp;amp;.flexbox.vleft}&quot;&gt;&lt;/a&gt;支持单页添加背景图片 {:&amp;amp;.flexbox.vleft}&lt;/h1&gt;&lt;h2 id=&quot;使用方法：-91-slide-style-”background-image-url-‘-img-bg1-png’-”-93&quot;&gt;&lt;a href=&quot;#使用方法：-91-slide-style-”background-image-url-‘-img-bg1-png’-”-93&quot; class=&quot;headerlink&quot; title=&quot;使用方法：&amp;#91;slide style=”background-image:url(‘/img/bg1.png’)”&amp;#93;&quot;&gt;&lt;/a&gt;使用方法：&amp;#91;slide style=”background-image:url(‘/img/bg1.png’)”&amp;#93;&lt;/h2&gt;&lt;p&gt;[slide]&lt;/p&gt;
+&lt;h2 id=&quot;使用LaTex公式：&quot;&gt;&lt;a href=&quot;#使用LaTex公式：&quot; class=&quot;headerlink&quot; title=&quot;使用LaTex公式：&quot;&gt;&lt;/a&gt;使用LaTex公式：&lt;/h2&gt;&lt;p&gt;$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}.    s = ut + \frac{1}{2}at^2 $$&lt;br&gt;矩阵：\( x = {\begin{bmatrix} 1 &amp;amp; 2 &amp;amp; 3 \\ 4 &amp;amp; 5 &amp;amp; 6 \end{bmatrix}}  \)&lt;/p&gt;
+&lt;p&gt;[slide]&lt;/p&gt;
+&lt;h2 id=&quot;支持-class-id-自定义属性样式&quot;&gt;&lt;a href=&quot;#支持-class-id-自定义属性样式&quot; class=&quot;headerlink&quot; title=&quot;支持.class/#id/自定义属性样式&quot;&gt;&lt;/a&gt;支持.class/#id/自定义属性样式&lt;/h2&gt;&lt;hr&gt;
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;使用：.class&amp;#123;:.class&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;使用：#id&amp;#123;:#id&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;组合使用：&amp;#123;:.class.class2 width=&quot;200px&quot;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;父元素样式使用&amp;amp;：&amp;#123;:&amp;amp;.class&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;[slide]&lt;/p&gt;
+&lt;h2 id=&quot;主页面样式&quot;&gt;&lt;a href=&quot;#主页面样式&quot; class=&quot;headerlink&quot; title=&quot;主页面样式&quot;&gt;&lt;/a&gt;主页面样式&lt;/h2&gt;&lt;h3 id=&quot;—-是上下分界线&quot;&gt;&lt;a href=&quot;#—-是上下分界线&quot; class=&quot;headerlink&quot; title=&quot;—-是上下分界线&quot;&gt;&lt;/a&gt;—-是上下分界线&lt;/h3&gt;&lt;hr&gt;
+&lt;p&gt;nodeppt是基于nodejs写的支持 &lt;strong&gt;Markdown!&lt;/strong&gt; 语法的网页PPT&lt;/p&gt;
+&lt;p&gt;nodeppt：&lt;a href=&quot;https://github.com/ksky521/nodePPT&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/ksky521/nodePPT&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[slide]&lt;/p&gt;
+&lt;p&gt;[subslide]&lt;/p&gt;
+&lt;h2 id=&quot;这是一个列表&quot;&gt;&lt;a href=&quot;#这是一个列表&quot; class=&quot;headerlink&quot; title=&quot;这是一个列表&quot;&gt;&lt;/a&gt;这是一个列表&lt;/h2&gt;&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;上下左右方向键翻页&lt;ul&gt;
+&lt;li&gt;列表支持渐显动画 {:&amp;amp;.moveIn}&lt;/li&gt;
+&lt;li&gt;支持多级列表&lt;/li&gt;
+&lt;li&gt;这个动画是moveIn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;h1 id=&quot;完全基于markdown语法哦&quot;&gt;&lt;a href=&quot;#完全基于markdown语法哦&quot; class=&quot;headerlink&quot; title=&quot;完全基于markdown语法哦&quot;&gt;&lt;/a&gt;完全基于markdown语法哦&lt;/h1&gt;&lt;h2 id=&quot;这是一个subslide页面&quot;&gt;&lt;a href=&quot;#这是一个subslide页面&quot; class=&quot;headerlink&quot; title=&quot;这是一个subslide页面&quot;&gt;&lt;/a&gt;这是一个subslide页面&lt;/h2&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;数字列表 {:&amp;amp;.rollIn}&lt;/li&gt;
+&lt;li&gt;数字列表&lt;/li&gt;
+&lt;li&gt;数字列表，这是一个subslide页面&lt;br&gt;[/subslide]&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;[slide]&lt;/p&gt;
+&lt;h2 id=&quot;列表渐显动画：fadeIn&quot;&gt;&lt;a href=&quot;#列表渐显动画：fadeIn&quot; class=&quot;headerlink&quot; title=&quot;列表渐显动画：fadeIn&quot;&gt;&lt;/a&gt;列表渐显动画：fadeIn&lt;/h2&gt;&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;列表支持渐显动画哦 {:&amp;amp;.fadeIn}&lt;ul&gt;
+&lt;li&gt;使用方法&lt;/li&gt;
+&lt;li&gt;markdown列表第一条加上：{:&amp;amp;.动画类型}&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;动画类型&lt;ul&gt;
+&lt;li&gt;fadeIn&lt;/li&gt;
+&lt;li&gt;rollIn&lt;/li&gt;
+&lt;li&gt;bounceIn&lt;/li&gt;
+&lt;li&gt;moveIn&lt;/li&gt;
+&lt;li&gt;zoomIn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;[slide]&lt;/p&gt;
+&lt;h2 id=&quot;列表渐显动画：zoomIn&quot;&gt;&lt;a href=&quot;#列表渐显动画：zoomIn&quot; class=&quot;headerlink&quot; title=&quot;列表渐显动画：zoomIn&quot;&gt;&lt;/a&gt;列表渐显动画：zoomIn&lt;/h2&gt;&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;列表支持渐显动画哦 {:&amp;amp;.zoomIn}&lt;/li&gt;
+&lt;li&gt;动画类型&lt;ul&gt;
+&lt;li&gt;fadeIn&lt;/li&gt;
+&lt;li&gt;rollIn&lt;/li&gt;
+&lt;li&gt;bounceIn&lt;/li&gt;
+&lt;li&gt;moveIn&lt;/li&gt;
+&lt;li&gt;zoomIn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;[slide]&lt;/p&gt;
+&lt;h2 id=&quot;列表渐显动画：bounceIn&quot;&gt;&lt;a href=&quot;#列表渐显动画：bounceIn&quot; class=&quot;headerlink&quot; title=&quot;列表渐显动画：bounceIn&quot;&gt;&lt;/a&gt;列表渐显动画：bounceIn&lt;/h2&gt;&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;列表支持渐显动画哦 {:&amp;amp;.bounceIn}&lt;/li&gt;
+&lt;li&gt;动画类型&lt;ul&gt;
+&lt;li&gt;fadeIn&lt;/li&gt;
+&lt;li&gt;rollIn&lt;/li&gt;
+&lt;li&gt;bounceIn&lt;/li&gt;
+&lt;li&gt;moveIn&lt;/li&gt;
+&lt;li&gt;zoomIn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;[slide]&lt;/p&gt;
+&lt;h2 id=&quot;表格示例&quot;&gt;&lt;a href=&quot;#表格示例&quot; class=&quot;headerlink&quot; title=&quot;表格示例&quot;&gt;&lt;/a&gt;表格示例&lt;/h2&gt;&lt;h3 id=&quot;市面上主要的css预处理器：Less-Sass-Stylus&quot;&gt;&lt;a href=&quot;#市面上主要的css预处理器：Less-Sass-Stylus&quot; class=&quot;headerlink&quot; title=&quot;市面上主要的css预处理器：Less\Sass\Stylus&quot;&gt;&lt;/a&gt;市面上主要的css预处理器：Less\Sass\Stylus&lt;/h3&gt;&lt;hr&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:left&quot;&gt;&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;Less&lt;/th&gt;
+&lt;th style=&quot;text-align:right&quot;&gt;Sass&lt;/th&gt;
+&lt;th&gt;Stylus&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;环境&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;js/nodejs&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;Ruby(这列右对齐)&lt;/td&gt;
+&lt;td&gt;nodejs(高亮) {:.highlight}&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;扩展名&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;.less&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;.scss/.sass&lt;/td&gt;
+&lt;td&gt;.styl&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;特点&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;老牌，用户多，支持js解析&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;功能全，有成型框架，发展快&lt;/td&gt;
+&lt;td&gt;语法多样，小众&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:left&quot;&gt;案例/框架&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;a href=&quot;http://getbootstrap.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Bootstrap&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&quot;text-align:right&quot;&gt;&lt;a href=&quot;http://beta.compass-style.org&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Compass&lt;/a&gt; &lt;a href=&quot;http://getbootstrap.com/css/#sass&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Bootstrap&lt;/a&gt; &lt;a href=&quot;http://foundation.zurb.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Foundation&lt;/a&gt; &lt;a href=&quot;http://bourbon.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Bourbon&lt;/a&gt; &lt;a href=&quot;https://github.com/jsw0528/base.sass&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Base.Sass&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;[slide]&lt;/p&gt;
+&lt;h2 id=&quot;text&quot;&gt;&lt;a href=&quot;#text&quot; class=&quot;headerlink&quot; title=&quot;text&quot;&gt;&lt;/a&gt;text&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;span class=&quot;text-danger&quot;&gt;.text-danger&lt;/span&gt; &lt;span class=&quot;text-success&quot;&gt;.text-sucess&lt;/span&gt;&lt;span class=&quot;text-primary&quot;&gt;.text-primary&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;text-warning&quot;&gt;.text-warning&lt;/span&gt;&lt;span class=&quot;text-info&quot;&gt;.text-info&lt;/span&gt;&lt;span class=&quot;text-white&quot;&gt;.text-white&lt;/span&gt;&lt;span class=&quot;text-dark&quot;&gt;.text-dark&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;blue&quot;&gt;.blue&lt;/span&gt;&lt;span class=&quot;blue2&quot;&gt;.blue2&lt;/span&gt;&lt;span class=&quot;blue3&quot;&gt;.blue3&lt;/span&gt;&lt;span class=&quot;gray&quot;&gt;.gray&lt;/span&gt;&lt;span class=&quot;gray2&quot;&gt;.gray2&lt;/span&gt;&lt;span class=&quot;gray3&quot;&gt;.gray3&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;red&quot;&gt;.red&lt;/span&gt;&lt;span class=&quot;red2&quot;&gt;.red2&lt;/span&gt;&lt;span class=&quot;red3&quot;&gt;.red3&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;yellow&quot;&gt;.yellow&lt;/span&gt;&lt;span class=&quot;yellow2&quot;&gt;.yellow2&lt;/span&gt;&lt;span class=&quot;yellow3&quot;&gt;.yellow3&lt;/span&gt;&lt;span class=&quot;green&quot;&gt;.green&lt;/span&gt;&lt;span class=&quot;green2&quot;&gt;.green2&lt;/span&gt;&lt;span class=&quot;green3&quot;&gt;.green3&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;[slide]&lt;/p&gt;
+&lt;h2 id=&quot;label-and-link&quot;&gt;&lt;a href=&quot;#label-and-link&quot; class=&quot;headerlink&quot; title=&quot;label and link&quot;&gt;&lt;/a&gt;label and link&lt;/h2&gt;&lt;p&gt;&lt;span class=&quot;label label-primary&quot;&gt;.label.label-primary&lt;/span&gt;&lt;span class=&quot;label label-warning&quot;&gt;.label.label-warning&lt;/span&gt;&lt;span class=&quot;label label-danger&quot;&gt;.label.label-danger&lt;/span&gt;&lt;span class=&quot;label label-default&quot;&gt;.label.label-default&lt;/span&gt;&lt;span class=&quot;label label-success&quot;&gt;.label.label-success&lt;/span&gt;&lt;span class=&quot;label label-info&quot;&gt;.label.label-info&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;link style&lt;/a&gt; &lt;mark&gt;mark&lt;/mark&gt;&lt;/p&gt;
+&lt;p&gt;[slide]&lt;/p&gt;
+&lt;h2 id=&quot;blockquote&quot;&gt;&lt;a href=&quot;#blockquote&quot; class=&quot;headerlink&quot; title=&quot;blockquote&quot;&gt;&lt;/a&gt;blockquote&lt;/h2&gt;&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;nodeppt可能是迄今为止最好用的web presentation &lt;small&gt;三水清&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;下面是另外一种样式&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这是一个class是：pull-right的blockquote &lt;small&gt;small一下&lt;/small&gt; {:&amp;amp;.pull-right}&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;[slide]&lt;/p&gt;
+&lt;h2 id=&quot;buttons&quot;&gt;&lt;a href=&quot;#buttons&quot; class=&quot;headerlink&quot; title=&quot;buttons&quot;&gt;&lt;/a&gt;buttons&lt;/h2&gt;&lt;hr&gt;
+&lt;button class=&quot;btn btn-default&quot;&gt;.btn .btn-default&lt;/button&gt;  &lt;button class=&quot;btn btn-primary&quot;&gt;.btn.btn-lg.btn-primary&lt;/button&gt; &lt;button class=&quot;btn btn-warning&quot;&gt;.btn.btn-waring&lt;/button&gt; &lt;button class=&quot;btn btn-success&quot;&gt;.btn.btn-success&lt;/button&gt; &lt;button class=&quot;btn btn-danger&quot;&gt;.btn.btn-danger&lt;/button&gt;
+
+
+
+&lt;button class=&quot;btn btn-lg btn-default&quot;&gt;.btn.btn-lg.btn-default&lt;/button&gt; &lt;button class=&quot;btn btn-xs btn-success&quot;&gt;.btn.btn-xs.btn-success&lt;/button&gt; &lt;button class=&quot;btn btn-sm btn-primary&quot;&gt;.btn.btn-sm.btn-primary&lt;/button&gt; &lt;button class=&quot;btn btn-rounded btn-warning&quot;&gt;.btn.btn-rounded.btn-waring&lt;/button&gt;  &lt;button class=&quot;btn btn-danger&quot; disabled=&quot;disabled&quot;&gt;disabled.btn.btn-danger&lt;/button&gt;
+
+
+&lt;button class=&quot;btn btn-success&quot;&gt;&lt;i class=&quot;fa fa-share mr5&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+
+&lt;p&gt;[slide]&lt;/p&gt;
+&lt;h2 id=&quot;icons-Font-Awesome&quot;&gt;&lt;a href=&quot;#icons-Font-Awesome&quot; class=&quot;headerlink&quot; title=&quot;icons: Font Awesome&quot;&gt;&lt;/a&gt;icons: Font Awesome&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;i class=&quot;fa fa-apple&quot;&gt;&lt;/i&gt;&lt;br&gt;&lt;i class=&quot;fa fa-android&quot;&gt;&lt;/i&gt;&lt;br&gt;&lt;i class=&quot;fa fa-github&quot;&gt;&lt;/i&gt;&lt;br&gt;&lt;i class=&quot;fa fa-google&quot;&gt;&lt;/i&gt;&lt;br&gt;&lt;i class=&quot;fa fa-linux&quot;&gt;&lt;/i&gt;&lt;br&gt;&lt;i class=&quot;fa fa-css3&quot;&gt;&lt;/i&gt;&lt;br&gt;&lt;i class=&quot;fa fa-html5&quot;&gt;&lt;/i&gt;&lt;br&gt;&lt;i class=&quot;fa fa-usd&quot;&gt;&lt;/i&gt;&lt;br&gt;&lt;i class=&quot;fa fa-pie-chart&quot;&gt;&lt;/i&gt;&lt;br&gt;&lt;i class=&quot;fa fa-file-video-o&quot;&gt;&lt;/i&gt;&lt;br&gt;&lt;i class=&quot;fa fa-cog&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;[slide]&lt;/p&gt;
+&lt;h2 id=&quot;代码格式化&quot;&gt;&lt;a href=&quot;#代码格式化&quot; class=&quot;headerlink&quot; title=&quot;代码格式化&quot;&gt;&lt;/a&gt;代码格式化&lt;/h2&gt;&lt;h3 id=&quot;使用-highlightjs-进行语法高亮&quot;&gt;&lt;a href=&quot;#使用-highlightjs-进行语法高亮&quot; class=&quot;headerlink&quot; title=&quot;使用 highlightjs 进行语法高亮&quot;&gt;&lt;/a&gt;使用 &lt;code&gt;highlightjs&lt;/code&gt; 进行语法高亮&lt;/h3&gt;&lt;hr&gt;
+&lt;div class=&quot;columns-2&quot;&gt;&lt;br&gt;    &lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;(function(window, document){&lt;br&gt;    var a = 1;&lt;br&gt;    var test = function(){&lt;br&gt;        var b = 1;&lt;br&gt;        alert(b);&lt;br&gt;    };&lt;br&gt;    //泛数组转换为数组&lt;br&gt;    function toArray(arrayLike) {&lt;br&gt;        return [].slice.call(arrayLike);&lt;br&gt;    }&lt;br&gt;}(window, document));&lt;br&gt;    &lt;/code&gt;&lt;/pre&gt;&lt;br&gt;    &lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;(function(window, document){&lt;br&gt;    var a = 1;&lt;br&gt;    var test = function(){&lt;br&gt;        var b = 1;&lt;br&gt;        alert(b);&lt;br&gt;    };&lt;br&gt;    //泛数组转换为数组&lt;br&gt;    function toArray(arrayLike) {&lt;br&gt;        return [].slice.call(arrayLike);&lt;br&gt;    }&lt;br&gt;}(window, document));&lt;br&gt;    &lt;/code&gt;&lt;/pre&gt;&lt;br&gt;&lt;/div&gt;
+
+
+
+&lt;p&gt;[slide]&lt;/p&gt;
+&lt;h2 id=&quot;支持多种皮肤&quot;&gt;&lt;a href=&quot;#支持多种皮肤&quot; class=&quot;headerlink&quot; title=&quot;支持多种皮肤&quot;&gt;&lt;/a&gt;支持多种皮肤&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;a href=&quot;/&quot;&gt;colors&lt;/a&gt;-&lt;a href=&quot;?theme=moon&quot;&gt;moon&lt;/a&gt;-&lt;a href=&quot;?theme=blue&quot;&gt;blue&lt;/a&gt;-&lt;a href=&quot;?theme=dark&quot;&gt;dark&lt;/a&gt;-&lt;a href=&quot;?theme=green&quot;&gt;green&lt;/a&gt;-&lt;a href=&quot;?theme=light&quot;&gt;light&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[slide data-incallback=”testScriptTag”]&lt;/p&gt;
+&lt;h2 id=&quot;支持-HTML-和-markdown-语法混编&quot;&gt;&lt;a href=&quot;#支持-HTML-和-markdown-语法混编&quot; class=&quot;headerlink&quot; title=&quot;支持 HTML 和 markdown 语法混编&quot;&gt;&lt;/a&gt;支持 HTML 和 markdown 语法混编&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;div class=&quot;file-setting&quot;&gt;&lt;br&gt;    &lt;p&gt;这是html&lt;/p&gt;&lt;br&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p id=&quot;css-demo&quot;&gt;这是css样式&lt;/p&gt;&lt;br&gt;&lt;p&gt;将html代码直接混编到&lt;strong&gt;markdown&lt;/strong&gt;文件中即可&lt;/p&gt;
+
+&lt;p&gt;我是js控制的颜色 black {:#testScriptTag}&lt;/p&gt;
+&lt;script&gt;
+    function testScriptTag(){
+        document.getElementById(&#39;testScriptTag&#39;).style.color = &#39;black&#39;;
+    }
+
+&lt;/script&gt;
+&lt;style&gt;
+#css-demo{
+    color: red;
+}
+&lt;/style&gt;
+
+
+[slide]
+## iframe效果
+----
+&lt;iframe data-src=&quot;http://www.baidu.com&quot; src=&quot;about:blank;&quot;&gt;&lt;/iframe&gt;
+
+[slide]
+## 动画样式强调
+----
+
+这段话里面的**加粗**和*em*字体会动画哦~
+
+按下【H】键查看效果
+
+
+[slide]
+## 支持zoom.js
+----
+
+增加了zoom.js的支持，在演示过程中使用`alt`+鼠标点击，则点击的地方就开始放大，再次`alt+click`则回复原状
+
+[slide]
+
+## 图片，点击全屏
+----
+
+![小萝莉](/girl.jpg &quot;小萝莉&quot;)
+
+
+[slide]
+[note]
+##这里是note
+
+使用n键，才能显示
+[/note]
+## 使用note笔记
+### note笔记是多窗口，或者自己做一些笔记用的
+---
+按下键盘【N】键测试下note，
+
+markdown语法如下：
+&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;[note]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;这里是note，&amp;#123; 要换成中括号啊！！&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;/note]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+[slide]
+
+## 使用画笔
+### 使用画笔做标记哦~你也可以随便作画啊！
+---
+按下键盘【P】键：按下鼠标左键，在此处乱花下看看效果。
+
+按下键盘【B/Y/R/G/M】：更换颜色，按下【1~4】：更换粗细
+
+按下键盘【C】键：清空画板
+
+
+[slide]
+
+## 宽度不够？？
+---
+按下键盘【W】键，切换到更宽的页面看效果，第二次按键返回
+
+ |less| sass | stylus
+:-------|:------:|-------:|--------
+环境 |js/nodejs | Ruby(这列右对齐) | nodejs(高亮) {:.highlight}
+扩展名 | .less | .sass/.scss | .styl
+特点 | 老牌，用户多，支持js解析 | 功能全，有成型框架，发展快 | 语法多样，小众
+案例/框架 | [Bootstrap](http://getbootstrap.com/) | [compass](http://compass-style.org) [bourbon](http://bourbon.io) |
+
+[slide]
+## 使用overview模式
+---
+按下键盘【O】键。看下效果。
+
+在overview模式下，方向键下一页，【enter】键进入选中页
+
+或者按下键盘【O】键，退出overview模式
+
+[slide]
+
+## 多窗口演示
+## 双屏演示不out！
+---
+本页面网址改成 [url?_multiscreen=1](?_multiscreen=1)，支持多屏演示哦！
+
+跟powderpoint一样的双屏功能，带有备注信息。
+
+[slide]
+## 20种转场动画随心换
+----
+ * &lt;a href=&quot;?transition=slide&quot;&gt;slide&lt;/a&gt;/&lt;a href=&quot;?transition=slide2&quot;&gt;slide2&lt;/a&gt;/&lt;a href=&quot;?transition=slide3&quot;&gt;slide3&lt;/a&gt;
+ * [newspaper](?transition=newspaper)
+ * [glue](?transition=glue)
+ * [kontext](?transition=kontext)/[vkontext](?transition=vkontext)
+ * [move](?transition=move)/[circle](?transition=circle)
+ * [horizontal](?transition=horizontal)/[horizontal3d](?transition=horizontal3d)
+ * [vertical3d](?transition=vertical3d)
+ * [zoomin](?transition=zoomin)/[zoomout](?transition=zoomout)
+ * [cards](?transition=cards)
+ * [earthquake](?transition=earthquake)/[pulse](?transition=pulse)/[stick](?transition=stick)...
+
+
+[slide data-transition=&quot;glue&quot;]
+
+## 这是一个glue的动画
+----
+使用方法（全局设置） 1：
+
+&gt; transition: glue
+
+
+[slide data-transition=&quot;glue&quot;]
+
+## 这是一个glue的动画
+----
+使用方法 2：
+
+&amp;#91;slide data-transition=&quot;glue&quot;&amp;#93;
+
+[slide data-transition=&quot;zoomin&quot;]
+
+## 这是一个zoomin的动画
+----
+使用方法：
+
+&amp;#91;slide data-transition=&quot;zoomin&quot;&amp;#93;
+
+[slide data-transition=&quot;vertical3d&quot;]
+
+## 这是一个vertical3d的动画
+----
+使用方法：
+
+&amp;#91;slide data-transition=&quot;vertical3d&quot;&amp;#93;
+
+[slide data-outcallback=&quot;outcallback&quot; data-incallback=&quot;incallback&quot; ]
+## 使用回调
+----
+
+* &amp;#91;slide data-outcallback=&quot;fnName&quot;&amp;#93;
+    * 进入执行回调incallback函数
+* &amp;#91;slide data-incallback=&quot;fnName&quot;&amp;#93;
+    * 退出执行outcallback函数
+
+亦可以组合写：
+
+&gt; &amp;#91;slide data-outcallback=&quot;foo&quot; data-incallback=&quot;bar&quot;&amp;#93;
+
+
+&lt;p id=&quot;incallback&quot;&gt;&lt;/p&gt;
+&lt;p id=&quot;outcallback&quot;&gt;&lt;/p&gt;
+
+[slide]
+## 远程执行函数
+----
+在多屏和远程模式中，可以使用`proxyFn`来远程执行函数。
+
+&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;undefined&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;function globalFunc()&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;onclick&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;Slide.proxyFn(&#39;globalFunc&#39;)&quot;&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;btn btn-default&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;远程执行函数&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;name&quot;&gt;button&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;button onclick=&quot;Slide.proxyFn(&#39;globalFunc&#39;,&#39;args&#39;)&quot; class=&quot;btn btn-default&quot;&gt;测试远程执行函数&lt;/button&gt;
+&lt;a href=&quot;?_multiscreen=1#33&quot;&gt;在多屏中测试远程执行&lt;/a&gt;
+&lt;script&gt;
+    function globalFunc(a){
+        alert(&#39;proxyFn success: &#39;+a+location.href);
+    }
+&lt;/script&gt;
+
+
+&lt;p&gt;[slide]&lt;/p&gt;
+&lt;h2 id=&quot;更多玩法&quot;&gt;&lt;a href=&quot;#更多玩法&quot; class=&quot;headerlink&quot; title=&quot;更多玩法&quot;&gt;&lt;/a&gt;更多玩法&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/ksky521/nodePPT&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://github.com/ksky521/nodePPT&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;什么？这些功能还不够用？&lt;/p&gt;
+&lt;p&gt;socket远程控制可以在手机上摇一摇换页哦~&lt;/p&gt;
+&lt;p&gt;查看项目目录ppts获取更多帮助信息&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;title: nodeppt markdown 演示&lt;br&gt;speaker: Theo Wang&lt;br&gt;url: &lt;a href=&quot;https://github.com/ksky521/nodePPT&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http
+    
+    </summary>
+    
+    
+      <category term="nodejs ppt" scheme="http://lonelyair.github.io/hexo-blog/tags/nodejs-ppt/"/>
+    
+  </entry>
+  
+</feed>
