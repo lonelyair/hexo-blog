@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Air的博客</title>
   <subtitle>新的开始</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/hexo-blog/atom.xml" rel="self"/>
   
   <link href="http://lonelyair.github.io/hexo-blog/"/>
   <updated>2016-05-04T05:25:05.000Z</updated>
