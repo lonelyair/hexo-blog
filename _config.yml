@@ -76,6 +76,9 @@ feed:
 	path: atom.xml
 	limit: 20
 	hub: 
+
+sitemap:
+  path: hexo-blog/sitemap.xml
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy: 

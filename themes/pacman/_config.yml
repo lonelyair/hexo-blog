@@ -2,7 +2,8 @@
 menu:
   Home: /
   Archives: /archives
-  Rss: /atom.xml
+  Rss: /hexo-blog/atom.xml
+  Sitemap: /hexo-blog/sitemap.xml
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -19,7 +20,7 @@ widgets:
 ## modify links in `/layout/_widget/links.ejs`.
 
 #### RSS
-rss: "/atom.xml" ## RSS address.
+rss: "/hexo-blog/atom.xml" ## RSS address.
 
 #### Image
 imglogo:
