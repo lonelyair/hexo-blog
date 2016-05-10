@@ -1,7 +1,7 @@
 ##### Menu
 menu:
   Home: /hexo-blog
-  Archives: /archives
+  Archives: /hexo-blog/archives
   Rss: /hexo-blog/atom.xml
   Sitemap: /hexo-blog/sitemap.xml
 ## you can create `tags` and `categories` folders in `../source`.
@@ -16,6 +16,8 @@ widgets:
 - category
 - tag
 - rss
+- weibo
+
 ## provide six widgets:category,tag,rss,archive,tagcloud,links.
 ## modify links in `/layout/_widget/links.ejs`.
 
