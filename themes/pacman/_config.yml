@@ -1,6 +1,6 @@
 ##### Menu
 menu:
-  Home: /
+  Home: /hexo-blog
   Archives: /archives
   Rss: /hexo-blog/atom.xml
   Sitemap: /hexo-blog/sitemap.xml
