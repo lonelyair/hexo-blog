@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://lonelyair.github.io/hexo-blog/hexo-blog/2016/05/16/git-flow-md/</loc>
+    
+    <lastmod>2016-05-16T12:21:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://lonelyair.github.io/hexo-blog/hexo-blog/2016/05/11/Markdown%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95%E8%AF%B4%E6%98%8E/</loc>
     
-    <lastmod>2016-05-12T08:39:44.000Z</lastmod>
+    <lastmod>2016-05-12T09:04:10.000Z</lastmod>
     
   </url>
   
@@ -16,7 +23,7 @@
   </url>
   
   <url>
-    <loc>http://lonelyair.github.io/hexo-blog/hexo-blog/2016/05/12/hello-world/</loc>
+    <loc>http://lonelyair.github.io/hexo-blog/hexo-blog/2016/05/16/hello-world/</loc>
     
     <lastmod>2016-05-06T12:15:23.000Z</lastmod>
     

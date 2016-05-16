@@ -9,7 +9,12 @@
     
     <meta name="author" content="Air Kang">
     
-    <meta name="description" content="title: nodeppt markdown 演示speaker: Theo Wangurl: https://github.com/ksky521/nodePPTtransition: movefiles: /js/demo.js,/css/demo.css,/js/zoom.jstheme: ">
+    <meta name="description" content="title: nodeppt markdown 演示
+speaker: Theo Wang
+url: https://github.com/ksky521/nodePPT
+transition: move
+files: /js/demo.js,/css/demo.css,/js/zoom.js
+th">
     
     
     
@@ -88,18 +93,28 @@
 		
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
-		<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#封面样式"><span class="toc-number">1.</span> <span class="toc-text">封面样式</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#h1是作为封面用的，内部的都用h2"><span class="toc-number">1.1.</span> <span class="toc-text">h1是作为封面用的，内部的都用h2</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#样式展示-amp-flexbox-vleft"><span class="toc-number">2.</span> <span class="toc-text">样式展示 {:&.flexbox.vleft}</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#为什么选择nodePPT"><span class="toc-number">2.1.</span> <span class="toc-text">为什么选择nodePPT</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#基本语法指南"><span class="toc-number">2.2.</span> <span class="toc-text">基本语法指南</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#支持单页添加背景图片-amp-flexbox-vleft"><span class="toc-number">3.</span> <span class="toc-text">支持单页添加背景图片 {:&.flexbox.vleft}</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#使用方法：-91-slide-style-”background-image-url-‘-img-bg1-png’-”-93"><span class="toc-number">3.1.</span> <span class="toc-text">使用方法：[slide style=”background-image:url(‘/img/bg1.png’)”]</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#使用LaTex公式："><span class="toc-number">3.2.</span> <span class="toc-text">使用LaTex公式：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#支持-class-id-自定义属性样式"><span class="toc-number">3.3.</span> <span class="toc-text">支持.class/#id/自定义属性样式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#主页面样式"><span class="toc-number">3.4.</span> <span class="toc-text">主页面样式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#—-是上下分界线"><span class="toc-number">3.4.1.</span> <span class="toc-text">—-是上下分界线</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#这是一个列表"><span class="toc-number">3.5.</span> <span class="toc-text">这是一个列表</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#完全基于markdown语法哦"><span class="toc-number">4.</span> <span class="toc-text">完全基于markdown语法哦</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#这是一个subslide页面"><span class="toc-number">4.1.</span> <span class="toc-text">这是一个subslide页面</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#列表渐显动画：fadeIn"><span class="toc-number">4.2.</span> <span class="toc-text">列表渐显动画：fadeIn</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#列表渐显动画：zoomIn"><span class="toc-number">4.3.</span> <span class="toc-text">列表渐显动画：zoomIn</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#列表渐显动画：bounceIn"><span class="toc-number">4.4.</span> <span class="toc-text">列表渐显动画：bounceIn</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#表格示例"><span class="toc-number">4.5.</span> <span class="toc-text">表格示例</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#市面上主要的css预处理器：Less-Sass-Stylus"><span class="toc-number">4.5.1.</span> <span class="toc-text">市面上主要的css预处理器：Less\Sass\Stylus</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#text"><span class="toc-number">4.6.</span> <span class="toc-text">text</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#label-and-link"><span class="toc-number">4.7.</span> <span class="toc-text">label and link</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#blockquote"><span class="toc-number">4.8.</span> <span class="toc-text">blockquote</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#buttons"><span class="toc-number">4.9.</span> <span class="toc-text">buttons</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#icons-Font-Awesome"><span class="toc-number">4.10.</span> <span class="toc-text">icons: Font Awesome</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#代码格式化"><span class="toc-number">4.11.</span> <span class="toc-text">代码格式化</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#使用-highlightjs-进行语法高亮"><span class="toc-number">4.11.1.</span> <span class="toc-text">使用 highlightjs 进行语法高亮</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#支持多种皮肤"><span class="toc-number">4.12.</span> <span class="toc-text">支持多种皮肤</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#支持-HTML-和-markdown-语法混编"><span class="toc-number">4.13.</span> <span class="toc-text">支持 HTML 和 markdown 语法混编</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#更多玩法"><span class="toc-number">4.14.</span> <span class="toc-text">更多玩法</span></a></li></ol></li></ol>
+		<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#undefined"><span class="toc-number">1.</span> <span class="toc-text">封面样式</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">1.1.</span> <span class="toc-text">h1是作为封面用的，内部的都用h2</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#undefined"><span class="toc-number">2.</span> <span class="toc-text">样式展示 {:&.flexbox.vleft}</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">2.1.</span> <span class="toc-text">为什么选择nodePPT</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">2.2.</span> <span class="toc-text">基本语法指南</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">2.3.</span> <span class="toc-text">二级标题</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#undefined"><span class="toc-number">3.</span> <span class="toc-text">支持单页添加背景图片 {:&.flexbox.vleft}</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.1.</span> <span class="toc-text">使用方法：[slide style="background-image:url('/img/bg1.png')"]</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.2.</span> <span class="toc-text">使用LaTex公式：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.3.</span> <span class="toc-text">支持.class/#id/自定义属性样式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.4.</span> <span class="toc-text">主页面样式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-number">3.4.1.</span> <span class="toc-text">----是上下分界线</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.5.</span> <span class="toc-text">这是一个列表</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.6.</span> <span class="toc-text">这是一个subslide页面</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.7.</span> <span class="toc-text">列表渐显动画：fadeIn</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.8.</span> <span class="toc-text">列表渐显动画：zoomIn</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.9.</span> <span class="toc-text">列表渐显动画：bounceIn</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.10.</span> <span class="toc-text">表格示例</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-number">3.10.1.</span> <span class="toc-text">市面上主要的css预处理器：Less\Sass\Stylus</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.11.</span> <span class="toc-text">text</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.12.</span> <span class="toc-text">label and link</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.13.</span> <span class="toc-text">blockquote</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.14.</span> <span class="toc-text">buttons</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.15.</span> <span class="toc-text">icons: Font Awesome</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.16.</span> <span class="toc-text">代码格式化</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-number">3.16.1.</span> <span class="toc-text">使用 highlightjs 进行语法高亮</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.17.</span> <span class="toc-text">支持多种皮肤</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.18.</span> <span class="toc-text">支持 HTML 和 markdown 语法混编</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.19.</span> <span class="toc-text">iframe效果</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.20.</span> <span class="toc-text">动画样式强调</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.21.</span> <span class="toc-text">支持zoom.js</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.22.</span> <span class="toc-text">图片，点击全屏</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.23.</span> <span class="toc-text">使用note笔记</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-number">3.23.1.</span> <span class="toc-text">note笔记是多窗口，或者自己做一些笔记用的</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.24.</span> <span class="toc-text">使用画笔</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-number">3.24.1.</span> <span class="toc-text">使用画笔做标记哦~你也可以随便作画啊！</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.25.</span> <span class="toc-text">宽度不够？？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.26.</span> <span class="toc-text">使用overview模式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.27.</span> <span class="toc-text">多窗口演示</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.28.</span> <span class="toc-text">双屏演示不out！</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.29.</span> <span class="toc-text">20种转场动画随心换</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.30.</span> <span class="toc-text">这是一个glue的动画</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.31.</span> <span class="toc-text">这是一个glue的动画</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.32.</span> <span class="toc-text">这是一个zoomin的动画</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.33.</span> <span class="toc-text">这是一个vertical3d的动画</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.34.</span> <span class="toc-text">使用回调</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.35.</span> <span class="toc-text">远程执行函数</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.36.</span> <span class="toc-text">更多玩法</span></a></li></ol></li></ol>
 		</div>
 		
-		<p>title: nodeppt markdown 演示<br>speaker: Theo Wang<br>url: <a href="https://github.com/ksky521/nodePPT" target="_blank" rel="external">https://github.com/ksky521/nodePPT</a><br>transition: move<br>files: /js/demo.js,/css/demo.css,/js/zoom.js<br>theme: moon<br>usemathjax: yes</p>
+		<p>title: nodeppt markdown 演示
+speaker: Theo Wang
+url: https://github.com/ksky521/nodePPT
+transition: move
+files: /js/demo.js,/css/demo.css,/js/zoom.js
+theme: moon
+usemathjax: yes</p>
 <p>[slide]</p>
-<h1 id="封面样式"><a href="#封面样式" class="headerlink" title="封面样式"></a>封面样式</h1><h2 id="h1是作为封面用的，内部的都用h2"><a href="#h1是作为封面用的，内部的都用h2" class="headerlink" title="h1是作为封面用的，内部的都用h2"></a>h1是作为封面用的，内部的都用h2</h2><p><small>演讲者：xxx</small></p>
+<h1>封面样式</h1>
+<h2>h1是作为封面用的，内部的都用h2</h2>
+<p>&lt;small&gt;演讲者：xxx&lt;/small&gt;</p>
 <p>[slide]</p>
-<h1 id="样式展示-amp-flexbox-vleft"><a href="#样式展示-amp-flexbox-vleft" class="headerlink" title="样式展示 {:&amp;.flexbox.vleft}"></a>样式展示 {:&amp;.flexbox.vleft}</h1><blockquote>
+<h1>样式展示 {:&amp;.flexbox.vleft}</h1>
+<blockquote>
 <p>nodePPT 让每个人都爱上做分享！</p>
 </blockquote>
 <p>[slide]</p>
-<h2 id="为什么选择nodePPT"><a href="#为什么选择nodePPT" class="headerlink" title="为什么选择nodePPT"></a>为什么选择nodePPT</h2><hr>
+<h2>为什么选择nodePPT</h2>
+<hr>
 <ul>
 <li>基于GFM的markdown语法编写 {:&amp;.rollIn}</li>
 <li>支持html混排，再复杂的demo也可以做！</li>
@@ -113,65 +128,76 @@
 <li>支持进入/退出回调，做在线demo很方便</li>
 </ul>
 <p>[slide]</p>
-<h2 id="基本语法指南"><a href="#基本语法指南" class="headerlink" title="基本语法指南"></a>基本语法指南</h2><hr>
-<pre><code class="markdown">/* 先写总的配置 */
+<h2>基本语法指南</h2>
+<hr>
+<p>&lt;pre&gt;&lt;code class=&quot;markdown&quot;&gt;/* 先写总的配置 */
 title: 这是title，网页名称
 speaker: 演讲者名称
 url: https://github.com/ksky521/nodePPT
 transition: 全局转场动画
 files: 引入的js和css文件，多个以半角逗号隔开
 highlightStyle: 代码高亮样式，默认monokai_sublime
-usemathjax: yes 启用MathJax渲染公式
-
-/* 以&#91;slide&#93; 隔开每个ppt页面 */
-&#91;slide&#93;
-## 二级标题
-这里写内容即可
-
-&#91;slide&#93;
+usemathjax: yes 启用MathJax渲染公式</p>
+<p>/* 以[slide] 隔开每个ppt页面 */
+[slide]</p>
+<h2>二级标题</h2>
+<p>这里写内容即可</p>
+<p>[slide]
 ...
-</code>
-</pre>
-
-
-
-<p>[slide style=”background-image:url(‘/img/bg1.png’)”]</p>
-<h1 id="支持单页添加背景图片-amp-flexbox-vleft"><a href="#支持单页添加背景图片-amp-flexbox-vleft" class="headerlink" title="支持单页添加背景图片 {:&amp;.flexbox.vleft}"></a>支持单页添加背景图片 {:&amp;.flexbox.vleft}</h1><h2 id="使用方法：-91-slide-style-”background-image-url-‘-img-bg1-png’-”-93"><a href="#使用方法：-91-slide-style-”background-image-url-‘-img-bg1-png’-”-93" class="headerlink" title="使用方法：&#91;slide style=”background-image:url(‘/img/bg1.png’)”&#93;"></a>使用方法：&#91;slide style=”background-image:url(‘/img/bg1.png’)”&#93;</h2><p>[slide]</p>
-<h2 id="使用LaTex公式："><a href="#使用LaTex公式：" class="headerlink" title="使用LaTex公式："></a>使用LaTex公式：</h2><p>$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}.    s = ut + \frac{1}{2}at^2 $$<br>矩阵：\( x = {\begin{bmatrix} 1 &amp; 2 &amp; 3 \\ 4 &amp; 5 &amp; 6 \end{bmatrix}}  \)</p>
+&lt;/code&gt;
+&lt;/pre&gt;</p>
+<p>[slide style=&quot;background-image:url('/img/bg1.png')&quot;]</p>
+<h1>支持单页添加背景图片 {:&amp;.flexbox.vleft}</h1>
+<h2>使用方法：[slide style=&quot;background-image:url('/img/bg1.png')&quot;]</h2>
 <p>[slide]</p>
-<h2 id="支持-class-id-自定义属性样式"><a href="#支持-class-id-自定义属性样式" class="headerlink" title="支持.class/#id/自定义属性样式"></a>支持.class/#id/自定义属性样式</h2><hr>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">使用：.class&#123;:.class&#125;</span><br><span class="line">使用：#id&#123;:#id&#125;</span><br><span class="line">组合使用：&#123;:.class.class2 width="200px"&#125;</span><br><span class="line">父元素样式使用&amp;：&#123;:&amp;.class&#125;</span><br></pre></td></tr></table></figure>
+<h2>使用LaTex公式：</h2>
+<p>$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a}.    s = ut + \frac{1}{2}at^2 $$
+矩阵：\( x = {\begin{bmatrix} 1 &amp; 2 &amp; 3 \\ 4 &amp; 5 &amp; 6 \end{bmatrix}}  \)</p>
 <p>[slide]</p>
-<h2 id="主页面样式"><a href="#主页面样式" class="headerlink" title="主页面样式"></a>主页面样式</h2><h3 id="—-是上下分界线"><a href="#—-是上下分界线" class="headerlink" title="—-是上下分界线"></a>—-是上下分界线</h3><hr>
+<h2>支持.class/#id/自定义属性样式</h2>
+<hr>
+<p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">使用：.class&#123;:.class&#125;</span><br><span class="line">使用：#id&#123;:#id&#125;</span><br><span class="line">组合使用：&#123;:.class.class2 width="200px"&#125;</span><br><span class="line">父元素样式使用&amp;：&#123;:&amp;.class&#125;</span><br></pre></td></tr></table></figure></p>
+<p>[slide]</p>
+<h2>主页面样式</h2>
+<h3>----是上下分界线</h3>
+<hr>
 <p>nodeppt是基于nodejs写的支持 <strong>Markdown!</strong> 语法的网页PPT</p>
-<p>nodeppt：<a href="https://github.com/ksky521/nodePPT" target="_blank" rel="external">https://github.com/ksky521/nodePPT</a></p>
+<p>nodeppt：https://github.com/ksky521/nodePPT</p>
 <p>[slide]</p>
 <p>[subslide]</p>
-<h2 id="这是一个列表"><a href="#这是一个列表" class="headerlink" title="这是一个列表"></a>这是一个列表</h2><hr>
+<h2>这是一个列表</h2>
+<hr>
 <ul>
-<li>上下左右方向键翻页<ul>
+<li>上下左右方向键翻页
+<ul>
 <li>列表支持渐显动画 {:&amp;.moveIn}</li>
 <li>支持多级列表</li>
 <li>这个动画是moveIn</li>
 </ul>
 </li>
-<li><h1 id="完全基于markdown语法哦"><a href="#完全基于markdown语法哦" class="headerlink" title="完全基于markdown语法哦"></a>完全基于markdown语法哦</h1><h2 id="这是一个subslide页面"><a href="#这是一个subslide页面" class="headerlink" title="这是一个subslide页面"></a>这是一个subslide页面</h2></li>
+<li>完全基于markdown语法哦
+============</li>
 </ul>
+<h2>这是一个subslide页面</h2>
 <hr>
 <ol>
 <li>数字列表 {:&amp;.rollIn}</li>
 <li>数字列表</li>
-<li>数字列表，这是一个subslide页面<br>[/subslide]</li>
+<li>数字列表，这是一个subslide页面
+[/subslide]</li>
 </ol>
 <p>[slide]</p>
-<h2 id="列表渐显动画：fadeIn"><a href="#列表渐显动画：fadeIn" class="headerlink" title="列表渐显动画：fadeIn"></a>列表渐显动画：fadeIn</h2><hr>
+<h2>列表渐显动画：fadeIn</h2>
+<hr>
 <ul>
-<li>列表支持渐显动画哦 {:&amp;.fadeIn}<ul>
+<li>列表支持渐显动画哦 {:&amp;.fadeIn}
+<ul>
 <li>使用方法</li>
 <li>markdown列表第一条加上：{:&amp;.动画类型}</li>
 </ul>
 </li>
-<li>动画类型<ul>
+<li>动画类型
+<ul>
 <li>fadeIn</li>
 <li>rollIn</li>
 <li>bounceIn</li>
@@ -181,10 +207,12 @@ usemathjax: yes 启用MathJax渲染公式
 </li>
 </ul>
 <p>[slide]</p>
-<h2 id="列表渐显动画：zoomIn"><a href="#列表渐显动画：zoomIn" class="headerlink" title="列表渐显动画：zoomIn"></a>列表渐显动画：zoomIn</h2><hr>
+<h2>列表渐显动画：zoomIn</h2>
+<hr>
 <ul>
 <li>列表支持渐显动画哦 {:&amp;.zoomIn}</li>
-<li>动画类型<ul>
+<li>动画类型
+<ul>
 <li>fadeIn</li>
 <li>rollIn</li>
 <li>bounceIn</li>
@@ -194,10 +222,12 @@ usemathjax: yes 启用MathJax渲染公式
 </li>
 </ul>
 <p>[slide]</p>
-<h2 id="列表渐显动画：bounceIn"><a href="#列表渐显动画：bounceIn" class="headerlink" title="列表渐显动画：bounceIn"></a>列表渐显动画：bounceIn</h2><hr>
+<h2>列表渐显动画：bounceIn</h2>
+<hr>
 <ul>
 <li>列表支持渐显动画哦 {:&amp;.bounceIn}</li>
-<li>动画类型<ul>
+<li>动画类型
+<ul>
 <li>fadeIn</li>
 <li>rollIn</li>
 <li>bounceIn</li>
@@ -207,14 +237,15 @@ usemathjax: yes 启用MathJax渲染公式
 </li>
 </ul>
 <p>[slide]</p>
-<h2 id="表格示例"><a href="#表格示例" class="headerlink" title="表格示例"></a>表格示例</h2><h3 id="市面上主要的css预处理器：Less-Sass-Stylus"><a href="#市面上主要的css预处理器：Less-Sass-Stylus" class="headerlink" title="市面上主要的css预处理器：Less\Sass\Stylus"></a>市面上主要的css预处理器：Less\Sass\Stylus</h3><hr>
+<h2>表格示例</h2>
+<h3>市面上主要的css预处理器：Less\Sass\Stylus</h3>
+<hr>
 <table>
 <thead>
 <tr>
-<th style="text-align:left"></th>
-<th style="text-align:center">Less</th>
-<th style="text-align:right">Sass</th>
-<th>Stylus</th>
+<th style="text-align:left">Less</th>
+<th style="text-align:center">Sass</th>
+<th style="text-align:right">Stylus</th>
 </tr>
 </thead>
 <tbody>
@@ -222,258 +253,275 @@ usemathjax: yes 启用MathJax渲染公式
 <td style="text-align:left">环境</td>
 <td style="text-align:center">js/nodejs</td>
 <td style="text-align:right">Ruby(这列右对齐)</td>
-<td>nodejs(高亮) {:.highlight}</td>
 </tr>
 <tr>
 <td style="text-align:left">扩展名</td>
 <td style="text-align:center">.less</td>
 <td style="text-align:right">.scss/.sass</td>
-<td>.styl</td>
 </tr>
 <tr>
 <td style="text-align:left">特点</td>
 <td style="text-align:center">老牌，用户多，支持js解析</td>
 <td style="text-align:right">功能全，有成型框架，发展快</td>
-<td>语法多样，小众</td>
 </tr>
 <tr>
 <td style="text-align:left">案例/框架</td>
 <td style="text-align:center"><a href="http://getbootstrap.com/" target="_blank" rel="external">Bootstrap</a></td>
 <td style="text-align:right"><a href="http://beta.compass-style.org" target="_blank" rel="external">Compass</a> <a href="http://getbootstrap.com/css/#sass" target="_blank" rel="external">Bootstrap</a> <a href="http://foundation.zurb.com/" target="_blank" rel="external">Foundation</a> <a href="http://bourbon.io" target="_blank" rel="external">Bourbon</a> <a href="https://github.com/jsw0528/base.sass" target="_blank" rel="external">Base.Sass</a></td>
-<td></td>
 </tr>
 </tbody>
 </table>
 <p>[slide]</p>
-<h2 id="text"><a href="#text" class="headerlink" title="text"></a>text</h2><hr>
-<p><span class="text-danger">.text-danger</span> <span class="text-success">.text-sucess</span><span class="text-primary">.text-primary</span></p>
-<p><span class="text-warning">.text-warning</span><span class="text-info">.text-info</span><span class="text-white">.text-white</span><span class="text-dark">.text-dark</span></p>
-<p><span class="blue">.blue</span><span class="blue2">.blue2</span><span class="blue3">.blue3</span><span class="gray">.gray</span><span class="gray2">.gray2</span><span class="gray3">.gray3</span></p>
-<p><span class="red">.red</span><span class="red2">.red2</span><span class="red3">.red3</span></p>
-<p><span class="yellow">.yellow</span><span class="yellow2">.yellow2</span><span class="yellow3">.yellow3</span><span class="green">.green</span><span class="green2">.green2</span><span class="green3">.green3</span></p>
+<h2>text</h2>
+<hr>
+<p>&lt;span class=&quot;text-danger&quot;&gt;.text-danger&lt;/span&gt; &lt;span class=&quot;text-success&quot;&gt;.text-sucess&lt;/span&gt;&lt;span class=&quot;text-primary&quot;&gt;.text-primary&lt;/span&gt;</p>
+<p>&lt;span class=&quot;text-warning&quot;&gt;.text-warning&lt;/span&gt;&lt;span class=&quot;text-info&quot;&gt;.text-info&lt;/span&gt;&lt;span class=&quot;text-white&quot;&gt;.text-white&lt;/span&gt;&lt;span class=&quot;text-dark&quot;&gt;.text-dark&lt;/span&gt;</p>
+<p>&lt;span class=&quot;blue&quot;&gt;.blue&lt;/span&gt;&lt;span class=&quot;blue2&quot;&gt;.blue2&lt;/span&gt;&lt;span class=&quot;blue3&quot;&gt;.blue3&lt;/span&gt;&lt;span class=&quot;gray&quot;&gt;.gray&lt;/span&gt;&lt;span class=&quot;gray2&quot;&gt;.gray2&lt;/span&gt;&lt;span class=&quot;gray3&quot;&gt;.gray3&lt;/span&gt;</p>
+<p>&lt;span class=&quot;red&quot;&gt;.red&lt;/span&gt;&lt;span class=&quot;red2&quot;&gt;.red2&lt;/span&gt;&lt;span class=&quot;red3&quot;&gt;.red3&lt;/span&gt;</p>
+<p>&lt;span class=&quot;yellow&quot;&gt;.yellow&lt;/span&gt;&lt;span class=&quot;yellow2&quot;&gt;.yellow2&lt;/span&gt;&lt;span class=&quot;yellow3&quot;&gt;.yellow3&lt;/span&gt;&lt;span class=&quot;green&quot;&gt;.green&lt;/span&gt;&lt;span class=&quot;green2&quot;&gt;.green2&lt;/span&gt;&lt;span class=&quot;green3&quot;&gt;.green3&lt;/span&gt;</p>
 <p>[slide]</p>
-<h2 id="label-and-link"><a href="#label-and-link" class="headerlink" title="label and link"></a>label and link</h2><p><span class="label label-primary">.label.label-primary</span><span class="label label-warning">.label.label-warning</span><span class="label label-danger">.label.label-danger</span><span class="label label-default">.label.label-default</span><span class="label label-success">.label.label-success</span><span class="label label-info">.label.label-info</span></p>
-<p><a href="#">link style</a> <mark>mark</mark></p>
+<h2>label and link</h2>
+<p>&lt;span class=&quot;label label-primary&quot;&gt;.label.label-primary&lt;/span&gt;&lt;span class=&quot;label label-warning&quot;&gt;.label.label-warning&lt;/span&gt;&lt;span class=&quot;label label-danger&quot;&gt;.label.label-danger&lt;/span&gt;&lt;span class=&quot;label label-default&quot;&gt;.label.label-default&lt;/span&gt;&lt;span class=&quot;label label-success&quot;&gt;.label.label-success&lt;/span&gt;&lt;span class=&quot;label label-info&quot;&gt;.label.label-info&lt;/span&gt;</p>
+<p>&lt;a href=&quot;#&quot;&gt;link style&lt;/a&gt; &lt;mark&gt;mark&lt;/mark&gt;</p>
 <p>[slide]</p>
-<h2 id="blockquote"><a href="#blockquote" class="headerlink" title="blockquote"></a>blockquote</h2><hr>
+<h2>blockquote</h2>
+<hr>
 <blockquote>
-<p>nodeppt可能是迄今为止最好用的web presentation <small>三水清</small></p>
+<p>nodeppt可能是迄今为止最好用的web presentation &lt;small&gt;三水清&lt;/small&gt;</p>
 </blockquote>
 <p>下面是另外一种样式</p>
 <blockquote>
-<p>这是一个class是：pull-right的blockquote <small>small一下</small> {:&amp;.pull-right}</p>
+<p>这是一个class是：pull-right的blockquote &lt;small&gt;small一下&lt;/small&gt; {:&amp;.pull-right}</p>
 </blockquote>
 <p>[slide]</p>
-<h2 id="buttons"><a href="#buttons" class="headerlink" title="buttons"></a>buttons</h2><hr>
-<button class="btn btn-default">.btn .btn-default</button>  <button class="btn btn-primary">.btn.btn-lg.btn-primary</button> <button class="btn btn-warning">.btn.btn-waring</button> <button class="btn btn-success">.btn.btn-success</button> <button class="btn btn-danger">.btn.btn-danger</button>
-
-
-
-<button class="btn btn-lg btn-default">.btn.btn-lg.btn-default</button> <button class="btn btn-xs btn-success">.btn.btn-xs.btn-success</button> <button class="btn btn-sm btn-primary">.btn.btn-sm.btn-primary</button> <button class="btn btn-rounded btn-warning">.btn.btn-rounded.btn-waring</button>  <button class="btn btn-danger" disabled="disabled">disabled.btn.btn-danger</button>
-
-
-<button class="btn btn-success"><i class="fa fa-share mr5"></i></button>
-
+<h2>buttons</h2>
+<hr>
+<p>&lt;button class=&quot;btn btn-default&quot;&gt;.btn .btn-default&lt;/button&gt;  &lt;button class=&quot;btn btn-primary&quot;&gt;.btn.btn-lg.btn-primary&lt;/button&gt; &lt;button class=&quot;btn btn-warning&quot;&gt;.btn.btn-waring&lt;/button&gt; &lt;button class=&quot;btn btn-success&quot;&gt;.btn.btn-success&lt;/button&gt; &lt;button class=&quot;btn btn-danger&quot;&gt;.btn.btn-danger&lt;/button&gt;</p>
+<p>&lt;button class=&quot;btn btn-lg btn-default&quot;&gt;.btn.btn-lg.btn-default&lt;/button&gt; &lt;button class=&quot;btn btn-xs btn-success&quot;&gt;.btn.btn-xs.btn-success&lt;/button&gt; &lt;button class=&quot;btn btn-sm btn-primary&quot;&gt;.btn.btn-sm.btn-primary&lt;/button&gt; &lt;button class=&quot;btn btn-rounded btn-warning&quot;&gt;.btn.btn-rounded.btn-waring&lt;/button&gt;  &lt;button class=&quot;btn btn-danger&quot; disabled=&quot;disabled&quot;&gt;disabled.btn.btn-danger&lt;/button&gt;</p>
+<p>&lt;button class=&quot;btn btn-success&quot;&gt;&lt;i class=&quot;fa fa-share mr5&quot;&gt;&lt;/i&gt;&lt;/button&gt;</p>
 <p>[slide]</p>
-<h2 id="icons-Font-Awesome"><a href="#icons-Font-Awesome" class="headerlink" title="icons: Font Awesome"></a>icons: Font Awesome</h2><hr>
-<p><i class="fa fa-apple"></i><br><i class="fa fa-android"></i><br><i class="fa fa-github"></i><br><i class="fa fa-google"></i><br><i class="fa fa-linux"></i><br><i class="fa fa-css3"></i><br><i class="fa fa-html5"></i><br><i class="fa fa-usd"></i><br><i class="fa fa-pie-chart"></i><br><i class="fa fa-file-video-o"></i><br><i class="fa fa-cog"></i></p>
+<h2>icons: Font Awesome</h2>
+<hr>
+<p>&lt;i class=&quot;fa fa-apple&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fa fa-android&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fa fa-github&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fa fa-google&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fa fa-linux&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fa fa-css3&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fa fa-html5&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fa fa-usd&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fa fa-pie-chart&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fa fa-file-video-o&quot;&gt;&lt;/i&gt;
+&lt;i class=&quot;fa fa-cog&quot;&gt;&lt;/i&gt;</p>
 <p>[slide]</p>
-<h2 id="代码格式化"><a href="#代码格式化" class="headerlink" title="代码格式化"></a>代码格式化</h2><h3 id="使用-highlightjs-进行语法高亮"><a href="#使用-highlightjs-进行语法高亮" class="headerlink" title="使用 highlightjs 进行语法高亮"></a>使用 <code>highlightjs</code> 进行语法高亮</h3><hr>
-<div class="columns-2"><br>    <pre><code class="javascript">(function(window, document){<br>    var a = 1;<br>    var test = function(){<br>        var b = 1;<br>        alert(b);<br>    };<br>    //泛数组转换为数组<br>    function toArray(arrayLike) {<br>        return [].slice.call(arrayLike);<br>    }<br>}(window, document));<br>    </code></pre><br>    <pre><code class="javascript">(function(window, document){<br>    var a = 1;<br>    var test = function(){<br>        var b = 1;<br>        alert(b);<br>    };<br>    //泛数组转换为数组<br>    function toArray(arrayLike) {<br>        return [].slice.call(arrayLike);<br>    }<br>}(window, document));<br>    </code></pre><br></div>
-
-
-
-<p>[slide]</p>
-<h2 id="支持多种皮肤"><a href="#支持多种皮肤" class="headerlink" title="支持多种皮肤"></a>支持多种皮肤</h2><hr>
-<p><a href="/">colors</a>-<a href="?theme=moon">moon</a>-<a href="?theme=blue">blue</a>-<a href="?theme=dark">dark</a>-<a href="?theme=green">green</a>-<a href="?theme=light">light</a></p>
-<p>[slide data-incallback=”testScriptTag”]</p>
-<h2 id="支持-HTML-和-markdown-语法混编"><a href="#支持-HTML-和-markdown-语法混编" class="headerlink" title="支持 HTML 和 markdown 语法混编"></a>支持 HTML 和 markdown 语法混编</h2><hr>
-<p><div class="file-setting"><br>    <p>这是html</p><br></div></p>
-<p id="css-demo">这是css样式</p><br><p>将html代码直接混编到<strong>markdown</strong>文件中即可</p>
-
-<p>我是js控制的颜色 black {:#testScriptTag}</p>
-<script>
-    function testScriptTag(){
-        document.getElementById('testScriptTag').style.color = 'black';
-    }
-
-</script>
-<style>
-#css-demo{
-    color: red;
+<h2>代码格式化</h2>
+<h3>使用 <code>highlightjs</code> 进行语法高亮</h3>
+<hr>
+<p>&lt;div class=&quot;columns-2&quot;&gt;
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;(function(window, document){
+var a = 1;
+var test = function(){
+var b = 1;
+alert(b);
+};
+//泛数组转换为数组
+function toArray(arrayLike) {
+return [].slice.call(arrayLike);
 }
-</style>
-
-
-[slide]
-## iframe效果
-----
-<iframe data-src="http://www.baidu.com" src="about:blank;"></iframe>
-
-[slide]
-## 动画样式强调
-----
-
-这段话里面的**加粗**和*em*字体会动画哦~
-
-按下【H】键查看效果
-
-
-[slide]
-## 支持zoom.js
-----
-
-增加了zoom.js的支持，在演示过程中使用`alt`+鼠标点击，则点击的地方就开始放大，再次`alt+click`则回复原状
-
-[slide]
-
-## 图片，点击全屏
-----
-
-![小萝莉](/girl.jpg "小萝莉")
-
-
-[slide]
-[note]
-##这里是note
-
-使用n键，才能显示
-[/note]
-## 使用note笔记
-### note笔记是多窗口，或者自己做一些笔记用的
----
-按下键盘【N】键测试下note，
-
-markdown语法如下：
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[note]</span><br><span class="line">这里是note，&#123; 要换成中括号啊！！</span><br><span class="line">&#123;/note]</span><br></pre></td></tr></table></figure>
-
-[slide]
-
-## 使用画笔
-### 使用画笔做标记哦~你也可以随便作画啊！
----
-按下键盘【P】键：按下鼠标左键，在此处乱花下看看效果。
-
-按下键盘【B/Y/R/G/M】：更换颜色，按下【1~4】：更换粗细
-
-按下键盘【C】键：清空画板
-
-
-[slide]
-
-## 宽度不够？？
----
-按下键盘【W】键，切换到更宽的页面看效果，第二次按键返回
-
- |less| sass | stylus
-:-------|:------:|-------:|--------
-环境 |js/nodejs | Ruby(这列右对齐) | nodejs(高亮) {:.highlight}
-扩展名 | .less | .sass/.scss | .styl
-特点 | 老牌，用户多，支持js解析 | 功能全，有成型框架，发展快 | 语法多样，小众
-案例/框架 | [Bootstrap](http://getbootstrap.com/) | [compass](http://compass-style.org) [bourbon](http://bourbon.io) |
-
-[slide]
-## 使用overview模式
----
-按下键盘【O】键。看下效果。
-
-在overview模式下，方向键下一页，【enter】键进入选中页
-
-或者按下键盘【O】键，退出overview模式
-
-[slide]
-
-## 多窗口演示
-## 双屏演示不out！
----
-本页面网址改成 [url?_multiscreen=1](?_multiscreen=1)，支持多屏演示哦！
-
-跟powderpoint一样的双屏功能，带有备注信息。
-
-[slide]
-## 20种转场动画随心换
-----
- * <a href="?transition=slide">slide</a>/<a href="?transition=slide2">slide2</a>/<a href="?transition=slide3">slide3</a>
- * [newspaper](?transition=newspaper)
- * [glue](?transition=glue)
- * [kontext](?transition=kontext)/[vkontext](?transition=vkontext)
- * [move](?transition=move)/[circle](?transition=circle)
- * [horizontal](?transition=horizontal)/[horizontal3d](?transition=horizontal3d)
- * [vertical3d](?transition=vertical3d)
- * [zoomin](?transition=zoomin)/[zoomout](?transition=zoomout)
- * [cards](?transition=cards)
- * [earthquake](?transition=earthquake)/[pulse](?transition=pulse)/[stick](?transition=stick)...
-
-
-[slide data-transition="glue"]
-
-## 这是一个glue的动画
-----
-使用方法（全局设置） 1：
-
-> transition: glue
-
-
-[slide data-transition="glue"]
-
-## 这是一个glue的动画
-----
-使用方法 2：
-
-&#91;slide data-transition="glue"&#93;
-
-[slide data-transition="zoomin"]
-
-## 这是一个zoomin的动画
-----
-使用方法：
-
-&#91;slide data-transition="zoomin"&#93;
-
-[slide data-transition="vertical3d"]
-
-## 这是一个vertical3d的动画
-----
-使用方法：
-
-&#91;slide data-transition="vertical3d"&#93;
-
-[slide data-outcallback="outcallback" data-incallback="incallback" ]
-## 使用回调
-----
-
-* &#91;slide data-outcallback="fnName"&#93;
-    * 进入执行回调incallback函数
-* &#91;slide data-incallback="fnName"&#93;
-    * 退出执行outcallback函数
-
-亦可以组合写：
-
-> &#91;slide data-outcallback="foo" data-incallback="bar"&#93;
-
-
-<p id="incallback"></p>
-<p id="outcallback"></p>
-
-[slide]
-## 远程执行函数
-----
-在多屏和远程模式中，可以使用`proxyFn`来远程执行函数。
-
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="undefined"></span><br><span class="line">function globalFunc()&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">onclick</span>=<span class="string">"Slide.proxyFn('globalFunc')"</span> <span class="attr">class</span>=<span class="string">"btn btn-default"</span>&gt;</span>远程执行函数<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<button onclick="Slide.proxyFn('globalFunc','args')" class="btn btn-default">测试远程执行函数</button>
-<a href="?_multiscreen=1#33">在多屏中测试远程执行</a>
-<script>
-    function globalFunc(a){
-        alert('proxyFn success: '+a+location.href);
-    }
-</script>
-
-
+}(window, document));
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&quot;javascript&quot;&gt;(function(window, document){
+var a = 1;
+var test = function(){
+var b = 1;
+alert(b);
+};
+//泛数组转换为数组
+function toArray(arrayLike) {
+return [].slice.call(arrayLike);
+}
+}(window, document));
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</p>
 <p>[slide]</p>
-<h2 id="更多玩法"><a href="#更多玩法" class="headerlink" title="更多玩法"></a>更多玩法</h2><hr>
-<p><a href="https://github.com/ksky521/nodePPT" target="_blank" rel="external">https://github.com/ksky521/nodePPT</a></p>
+<h2>支持多种皮肤</h2>
+<hr>
+<p><a href="/">colors</a>-<a href="?theme=moon">moon</a>-<a href="?theme=blue">blue</a>-<a href="?theme=dark">dark</a>-<a href="?theme=green">green</a>-<a href="?theme=light">light</a></p>
+<p>[slide data-incallback=&quot;testScriptTag&quot;]</p>
+<h2>支持 HTML 和 markdown 语法混编</h2>
+<hr>
+<p>&lt;div class=&quot;file-setting&quot;&gt;
+&lt;p&gt;这是html&lt;/p&gt;
+&lt;/div&gt;
+&lt;p id=&quot;css-demo&quot;&gt;这是css样式&lt;/p&gt;
+&lt;p&gt;将html代码直接混编到<strong>markdown</strong>文件中即可&lt;/p&gt;</p>
+<p>我是js控制的颜色 black {:#testScriptTag}</p>
+<p>&lt;script&gt;
+function testScriptTag(){
+document.getElementById('testScriptTag').style.color = 'black';
+}</p>
+<p>&lt;/script&gt;
+&lt;style&gt;
+#css-demo{
+color: red;
+}
+&lt;/style&gt;</p>
+<p>[slide]</p>
+<h2>iframe效果</h2>
+<hr>
+<p>&lt;iframe data-src=&quot;http://www.baidu.com&quot; src=&quot;about:blank;&quot;&gt;&lt;/iframe&gt;</p>
+<p>[slide]</p>
+<h2>动画样式强调</h2>
+<hr>
+<p>这段话里面的<strong>加粗</strong>和<em>em</em>字体会动画哦~</p>
+<p>按下【H】键查看效果</p>
+<p>[slide]</p>
+<h2>支持zoom.js</h2>
+<hr>
+<p>增加了zoom.js的支持，在演示过程中使用<code>alt</code>+鼠标点击，则点击的地方就开始放大，再次<code>alt+click</code>则回复原状</p>
+<p>[slide]</p>
+<h2>图片，点击全屏</h2>
+<hr>
+<p><img src="/girl.jpg" alt="小萝莉" title="小萝莉"></p>
+<p>[slide]
+[note]
+##这里是note</p>
+<p>使用n键，才能显示
+[/note]</p>
+<h2>使用note笔记</h2>
+<h3>note笔记是多窗口，或者自己做一些笔记用的</h3>
+<hr>
+<p>按下键盘【N】键测试下note，</p>
+<p>markdown语法如下：
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[note]</span><br><span class="line">这里是note，&#123; 要换成中括号啊！！</span><br><span class="line">&#123;/note]</span><br></pre></td></tr></table></figure></p>
+<p>[slide]</p>
+<h2>使用画笔</h2>
+<h3>使用画笔做标记哦~你也可以随便作画啊！</h3>
+<hr>
+<p>按下键盘【P】键：按下鼠标左键，在此处乱花下看看效果。</p>
+<p>按下键盘【B/Y/R/G/M】：更换颜色，按下【1~4】：更换粗细</p>
+<p>按下键盘【C】键：清空画板</p>
+<p>[slide]</p>
+<h2>宽度不够？？</h2>
+<hr>
+<p>按下键盘【W】键，切换到更宽的页面看效果，第二次按键返回</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">less</th>
+<th style="text-align:center">sass</th>
+<th style="text-align:right">stylus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">环境</td>
+<td style="text-align:center">js/nodejs</td>
+<td style="text-align:right">Ruby(这列右对齐)</td>
+</tr>
+<tr>
+<td style="text-align:left">扩展名</td>
+<td style="text-align:center">.less</td>
+<td style="text-align:right">.sass/.scss</td>
+</tr>
+<tr>
+<td style="text-align:left">特点</td>
+<td style="text-align:center">老牌，用户多，支持js解析</td>
+<td style="text-align:right">功能全，有成型框架，发展快</td>
+</tr>
+<tr>
+<td style="text-align:left">案例/框架</td>
+<td style="text-align:center"><a href="http://getbootstrap.com/" target="_blank" rel="external">Bootstrap</a></td>
+<td style="text-align:right"><a href="http://compass-style.org" target="_blank" rel="external">compass</a> <a href="http://bourbon.io" target="_blank" rel="external">bourbon</a></td>
+</tr>
+</tbody>
+</table>
+<p>[slide]</p>
+<h2>使用overview模式</h2>
+<hr>
+<p>按下键盘【O】键。看下效果。</p>
+<p>在overview模式下，方向键下一页，【enter】键进入选中页</p>
+<p>或者按下键盘【O】键，退出overview模式</p>
+<p>[slide]</p>
+<h2>多窗口演示</h2>
+<h2>双屏演示不out！</h2>
+<hr>
+<p>本页面网址改成 <a href="?_multiscreen=1">url?_multiscreen=1</a>，支持多屏演示哦！</p>
+<p>跟powderpoint一样的双屏功能，带有备注信息。</p>
+<p>[slide]</p>
+<h2>20种转场动画随心换</h2>
+<hr>
+<ul>
+<li>&lt;a href=&quot;?transition=slide&quot;&gt;slide&lt;/a&gt;/&lt;a href=&quot;?transition=slide2&quot;&gt;slide2&lt;/a&gt;/&lt;a href=&quot;?transition=slide3&quot;&gt;slide3&lt;/a&gt;</li>
+<li><a href="?transition=newspaper">newspaper</a></li>
+<li><a href="?transition=glue">glue</a></li>
+<li><a href="?transition=kontext">kontext</a>/<a href="?transition=vkontext">vkontext</a></li>
+<li><a href="?transition=move">move</a>/<a href="?transition=circle">circle</a></li>
+<li><a href="?transition=horizontal">horizontal</a>/<a href="?transition=horizontal3d">horizontal3d</a></li>
+<li><a href="?transition=vertical3d">vertical3d</a></li>
+<li><a href="?transition=zoomin">zoomin</a>/<a href="?transition=zoomout">zoomout</a></li>
+<li><a href="?transition=cards">cards</a></li>
+<li><a href="?transition=earthquake">earthquake</a>/<a href="?transition=pulse">pulse</a>/<a href="?transition=stick">stick</a>...</li>
+</ul>
+<p>[slide data-transition=&quot;glue&quot;]</p>
+<h2>这是一个glue的动画</h2>
+<hr>
+<p>使用方法（全局设置） 1：</p>
+<blockquote>
+<p>transition: glue</p>
+</blockquote>
+<p>[slide data-transition=&quot;glue&quot;]</p>
+<h2>这是一个glue的动画</h2>
+<hr>
+<p>使用方法 2：</p>
+<p>[slide data-transition=&quot;glue&quot;]</p>
+<p>[slide data-transition=&quot;zoomin&quot;]</p>
+<h2>这是一个zoomin的动画</h2>
+<hr>
+<p>使用方法：</p>
+<p>[slide data-transition=&quot;zoomin&quot;]</p>
+<p>[slide data-transition=&quot;vertical3d&quot;]</p>
+<h2>这是一个vertical3d的动画</h2>
+<hr>
+<p>使用方法：</p>
+<p>[slide data-transition=&quot;vertical3d&quot;]</p>
+<p>[slide data-outcallback=&quot;outcallback&quot; data-incallback=&quot;incallback&quot; ]</p>
+<h2>使用回调</h2>
+<hr>
+<ul>
+<li>[slide data-outcallback=&quot;fnName&quot;]
+<ul>
+<li>进入执行回调incallback函数</li>
+</ul>
+</li>
+<li>[slide data-incallback=&quot;fnName&quot;]
+<ul>
+<li>退出执行outcallback函数</li>
+</ul>
+</li>
+</ul>
+<p>亦可以组合写：</p>
+<blockquote>
+<p>[slide data-outcallback=&quot;foo&quot; data-incallback=&quot;bar&quot;]</p>
+</blockquote>
+<p>&lt;p id=&quot;incallback&quot;&gt;&lt;/p&gt;
+&lt;p id=&quot;outcallback&quot;&gt;&lt;/p&gt;</p>
+<p>[slide]</p>
+<h2>远程执行函数</h2>
+<hr>
+<p>在多屏和远程模式中，可以使用<code>proxyFn</code>来远程执行函数。</p>
+<p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="undefined"></span><br><span class="line">function globalFunc()&#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">onclick</span>=<span class="string">"Slide.proxyFn('globalFunc')"</span> <span class="attr">class</span>=<span class="string">"btn btn-default"</span>&gt;</span>远程执行函数<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>&lt;button onclick=&quot;Slide.proxyFn('globalFunc','args')&quot; class=&quot;btn btn-default&quot;&gt;测试远程执行函数&lt;/button&gt;
+&lt;a href=&quot;?_multiscreen=1#33&quot;&gt;在多屏中测试远程执行&lt;/a&gt;
+&lt;script&gt;
+function globalFunc(a){
+alert('proxyFn success: '+a+location.href);
+}
+&lt;/script&gt;</p>
+<p>[slide]</p>
+<h2>更多玩法</h2>
+<hr>
+<p>https://github.com/ksky521/nodePPT</p>
 <p>什么？这些功能还不够用？</p>
 <p>socket远程控制可以在手机上摇一摇换页哦~</p>
 <p>查看项目目录ppts获取更多帮助信息</p>
@@ -517,7 +565,7 @@ markdown语法如下：
 
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
-  <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#封面样式"><span class="toc-number">1.</span> <span class="toc-text">封面样式</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#h1是作为封面用的，内部的都用h2"><span class="toc-number">1.1.</span> <span class="toc-text">h1是作为封面用的，内部的都用h2</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#样式展示-amp-flexbox-vleft"><span class="toc-number">2.</span> <span class="toc-text">样式展示 {:&.flexbox.vleft}</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#为什么选择nodePPT"><span class="toc-number">2.1.</span> <span class="toc-text">为什么选择nodePPT</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#基本语法指南"><span class="toc-number">2.2.</span> <span class="toc-text">基本语法指南</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#支持单页添加背景图片-amp-flexbox-vleft"><span class="toc-number">3.</span> <span class="toc-text">支持单页添加背景图片 {:&.flexbox.vleft}</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#使用方法：-91-slide-style-”background-image-url-‘-img-bg1-png’-”-93"><span class="toc-number">3.1.</span> <span class="toc-text">使用方法：[slide style=”background-image:url(‘/img/bg1.png’)”]</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#使用LaTex公式："><span class="toc-number">3.2.</span> <span class="toc-text">使用LaTex公式：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#支持-class-id-自定义属性样式"><span class="toc-number">3.3.</span> <span class="toc-text">支持.class/#id/自定义属性样式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#主页面样式"><span class="toc-number">3.4.</span> <span class="toc-text">主页面样式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#—-是上下分界线"><span class="toc-number">3.4.1.</span> <span class="toc-text">—-是上下分界线</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#这是一个列表"><span class="toc-number">3.5.</span> <span class="toc-text">这是一个列表</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#完全基于markdown语法哦"><span class="toc-number">4.</span> <span class="toc-text">完全基于markdown语法哦</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#这是一个subslide页面"><span class="toc-number">4.1.</span> <span class="toc-text">这是一个subslide页面</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#列表渐显动画：fadeIn"><span class="toc-number">4.2.</span> <span class="toc-text">列表渐显动画：fadeIn</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#列表渐显动画：zoomIn"><span class="toc-number">4.3.</span> <span class="toc-text">列表渐显动画：zoomIn</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#列表渐显动画：bounceIn"><span class="toc-number">4.4.</span> <span class="toc-text">列表渐显动画：bounceIn</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#表格示例"><span class="toc-number">4.5.</span> <span class="toc-text">表格示例</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#市面上主要的css预处理器：Less-Sass-Stylus"><span class="toc-number">4.5.1.</span> <span class="toc-text">市面上主要的css预处理器：Less\Sass\Stylus</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#text"><span class="toc-number">4.6.</span> <span class="toc-text">text</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#label-and-link"><span class="toc-number">4.7.</span> <span class="toc-text">label and link</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#blockquote"><span class="toc-number">4.8.</span> <span class="toc-text">blockquote</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#buttons"><span class="toc-number">4.9.</span> <span class="toc-text">buttons</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#icons-Font-Awesome"><span class="toc-number">4.10.</span> <span class="toc-text">icons: Font Awesome</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#代码格式化"><span class="toc-number">4.11.</span> <span class="toc-text">代码格式化</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#使用-highlightjs-进行语法高亮"><span class="toc-number">4.11.1.</span> <span class="toc-text">使用 highlightjs 进行语法高亮</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#支持多种皮肤"><span class="toc-number">4.12.</span> <span class="toc-text">支持多种皮肤</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#支持-HTML-和-markdown-语法混编"><span class="toc-number">4.13.</span> <span class="toc-text">支持 HTML 和 markdown 语法混编</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#更多玩法"><span class="toc-number">4.14.</span> <span class="toc-text">更多玩法</span></a></li></ol></li></ol>
+  <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#undefined"><span class="toc-number">1.</span> <span class="toc-text">封面样式</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">1.1.</span> <span class="toc-text">h1是作为封面用的，内部的都用h2</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#undefined"><span class="toc-number">2.</span> <span class="toc-text">样式展示 {:&.flexbox.vleft}</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">2.1.</span> <span class="toc-text">为什么选择nodePPT</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">2.2.</span> <span class="toc-text">基本语法指南</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">2.3.</span> <span class="toc-text">二级标题</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#undefined"><span class="toc-number">3.</span> <span class="toc-text">支持单页添加背景图片 {:&.flexbox.vleft}</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.1.</span> <span class="toc-text">使用方法：[slide style="background-image:url('/img/bg1.png')"]</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.2.</span> <span class="toc-text">使用LaTex公式：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.3.</span> <span class="toc-text">支持.class/#id/自定义属性样式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.4.</span> <span class="toc-text">主页面样式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-number">3.4.1.</span> <span class="toc-text">----是上下分界线</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.5.</span> <span class="toc-text">这是一个列表</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.6.</span> <span class="toc-text">这是一个subslide页面</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.7.</span> <span class="toc-text">列表渐显动画：fadeIn</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.8.</span> <span class="toc-text">列表渐显动画：zoomIn</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.9.</span> <span class="toc-text">列表渐显动画：bounceIn</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.10.</span> <span class="toc-text">表格示例</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-number">3.10.1.</span> <span class="toc-text">市面上主要的css预处理器：Less\Sass\Stylus</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.11.</span> <span class="toc-text">text</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.12.</span> <span class="toc-text">label and link</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.13.</span> <span class="toc-text">blockquote</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.14.</span> <span class="toc-text">buttons</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.15.</span> <span class="toc-text">icons: Font Awesome</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.16.</span> <span class="toc-text">代码格式化</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-number">3.16.1.</span> <span class="toc-text">使用 highlightjs 进行语法高亮</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.17.</span> <span class="toc-text">支持多种皮肤</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.18.</span> <span class="toc-text">支持 HTML 和 markdown 语法混编</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.19.</span> <span class="toc-text">iframe效果</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.20.</span> <span class="toc-text">动画样式强调</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.21.</span> <span class="toc-text">支持zoom.js</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.22.</span> <span class="toc-text">图片，点击全屏</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.23.</span> <span class="toc-text">使用note笔记</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-number">3.23.1.</span> <span class="toc-text">note笔记是多窗口，或者自己做一些笔记用的</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.24.</span> <span class="toc-text">使用画笔</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#undefined"><span class="toc-number">3.24.1.</span> <span class="toc-text">使用画笔做标记哦~你也可以随便作画啊！</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.25.</span> <span class="toc-text">宽度不够？？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.26.</span> <span class="toc-text">使用overview模式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.27.</span> <span class="toc-text">多窗口演示</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.28.</span> <span class="toc-text">双屏演示不out！</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.29.</span> <span class="toc-text">20种转场动画随心换</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.30.</span> <span class="toc-text">这是一个glue的动画</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.31.</span> <span class="toc-text">这是一个glue的动画</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.32.</span> <span class="toc-text">这是一个zoomin的动画</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.33.</span> <span class="toc-text">这是一个vertical3d的动画</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.34.</span> <span class="toc-text">使用回调</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.35.</span> <span class="toc-text">远程执行函数</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#undefined"><span class="toc-number">3.36.</span> <span class="toc-text">更多玩法</span></a></li></ol></li></ol>
   </div>
 
 <div id="asidepart">
@@ -528,6 +576,8 @@ markdown语法如下：
 <div class="categorieslist">
 	<p class="asidetitle">分类</p>
 		<ul>
+		
+			<li><a href="/hexo-blog/categories/git/" title="git">git<sup>1</sup></a></li>
 		
 			<li><a href="/hexo-blog/categories/日志/" title="日志">日志<sup>1</sup></a></li>
 		
@@ -541,6 +591,10 @@ markdown语法如下：
 <div class="tagslist">
 	<p class="asidetitle">标签</p>
 		<ul class="clearfix">
+		
+			<li><a href="/hexo-blog/tags/git/" title="git">git<sup>1</sup></a></li>
+		
+			<li><a href="/hexo-blog/tags/git-flow/" title="git flow">git flow<sup>1</sup></a></li>
 		
 			<li><a href="/hexo-blog/tags/nodejs-ppt/" title="nodejs ppt">nodejs ppt<sup>1</sup></a></li>
 		
